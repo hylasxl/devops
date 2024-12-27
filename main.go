@@ -12,11 +12,6 @@ func main() {
 			"message": "pong",
 		})
 	})
-	r.GET("/pong", func(c *gin.Context) {
-		c.JSON(http.StatusOK, gin.H{
-			"message": "ping",
-		})
-	})
 
 	r.Run(":4000")
 }
