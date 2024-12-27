@@ -17,11 +17,6 @@ func main() {
 			"message": "ping",
 		})
 	})
-	r.GET("/", func(c *gin.Context) {
-		c.JSON(http.StatusOK, gin.H{
-			"message": "test",
-		})
-	})
 
 	r.Run(":4000")
 }
