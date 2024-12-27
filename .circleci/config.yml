@@ -30,4 +30,4 @@ jobs:
 workflows:
   build-and-test:
     jobs:
-      - build-go-executables:
+      - build-go-executables
